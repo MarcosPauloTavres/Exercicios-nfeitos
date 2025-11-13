@@ -25,16 +25,14 @@ resposta
 1 alert ('Seja muito bem vindo ao nosso site ');
 2 let nome = 'lua';
 3 let idade = 25;
-4
-    
-
-let saldoDisponivel = 1000;
-alert ('Erro! preencha todos os campos');
-let mensagemDeErro = ('Erro prencha todos os campos');
+4 let numeroDeVendas =  50;
+5 let saldoDisponivel = 1000;
+6 alert ('Erro! preencha todos os campos');
+7 let mensagemDeErro = ('Erro prencha todos os campos');
 alert (mensagemDeErro);
-let nome = prompt('Qual é sua nome?'); 
-let idade = prompt('Qual é sua idade')
-if (idade > 18){
+8 let nome = prompt('Qual é sua nome?'); 
+9 let idade = prompt('Qual é sua idade')
+10 if (idade > 18){
     alert('pode tirar abilitaçao')
-
 }
+
